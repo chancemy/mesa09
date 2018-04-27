@@ -8,7 +8,15 @@
  }else if($score>=70){
      echo "C";
  }else if($score>=60){
-     echo "E";
+     echo "D";
  }else {
-     echo "F";
+     echo "E";
 }
+
+echo '<hr>';
+ $var1=10; $var2 =3;
+ if($var1-- <=10 || $var2++ > 3){
+     echo"ok{$var1} : {$var2}<be>";
+ }else{
+     echo"XX{$var1} : {$var2}<be>";
+ }

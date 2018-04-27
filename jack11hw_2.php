@@ -22,6 +22,6 @@
     年<?php
     echo $leapYear;
     ?><br>
-    <input type="submit" style="width:60px;font-size:20px;" value="計算" />
+
 
 </form>
