@@ -19,6 +19,10 @@
     $a3['age'] = 24;
     $a3[123] =456;
     var_dump($a3);
+
+    foreach ($a3 as $key => $value){
+        echo "{$key} : {$value}<br>";
+    }
     //整數字串兩種型別
 
     echo '<hr>';
